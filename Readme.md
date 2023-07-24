@@ -22,7 +22,7 @@ The Twitter data is obtained through the utilization of the Twitter Streaming AP
 
 ## Data Architecture
 
-![link](https://github.com/akshitvjain/realtime-twitter-trends-analytics/blob/master/images/pipeline-architecture.png)
+![link](https://github.com/princebhatt9588/eal_Time_Twitter_Trends_Analytics/assets/117750531/d4946d32-578f-4663-ac9d-a926881e750architecture.png)
 
 In this data pipeline architecture, the Twitter streaming producer utilizes Kafka to publish real-time tweets to the 'tweets-1' topic within an Apache Kafka broker. Subsequently, the Apache Spark Streaming Context subscribes to the 'tweets-1' topic, enabling the ingestion of tweets for further processing.
 
